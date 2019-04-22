@@ -1,0 +1,21 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp33
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] datas = {20,15,4,56,34,12,78 };
+            Array.Sort(datas);
+            foreach (int DATA in datas) 
+              {
+                Console.Write(DATA+",");
+              }
+        }
+    }
+}
